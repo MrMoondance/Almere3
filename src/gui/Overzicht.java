@@ -18,6 +18,7 @@ public class Overzicht {
 	public Overzicht(final JFrame mainWindow, final ArrayList<Plant> lijst) {
 
 		ArrayList<Action> actionlijst = ReadAction.getActionlijst();
+		
 
 		List<String> lijstB = new ArrayList<String>();
 		for (Plant plant : lijst) {
